@@ -1,0 +1,42 @@
+@model IEnumerable<AthleteSystem.Models.Athlete>
+
+@{
+    ViewData["Title"] = "Athletes";
+}
+
+<h2>Athletes</h2>
+
+<p>
+    <a class="btn btn-primary" href="/Athlete/Create">Add New Athlete</a>
+</p>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Sport Category</th>
+            <th>Created Date</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Age</td>
+                <td>@item.Gender</td>
+                <td>@item.SportCategory</td>
+                <td>@item.CreatedDate.ToShortDateString()</td>
+
+                <td>
+                    <a class="btn btn-sm btn-warning" href="/Athlete/Edit/@item.Id">Edit</a>
+                    <a class="btn btn-sm btn-danger" href="/Athlete/Delete/@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
