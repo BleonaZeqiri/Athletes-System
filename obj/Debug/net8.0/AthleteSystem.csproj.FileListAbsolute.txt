@@ -8,6 +8,8 @@
 /Users/mac/AthleteSystem/bin/Debug/net8.0/AthleteSystem.dll
 /Users/mac/AthleteSystem/bin/Debug/net8.0/AthleteSystem.pdb
 /Users/mac/AthleteSystem/bin/Debug/net8.0/Humanizer.dll
+/Users/mac/AthleteSystem/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/mac/AthleteSystem/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.UI.dll
 /Users/mac/AthleteSystem/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
 /Users/mac/AthleteSystem/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll
 /Users/mac/AthleteSystem/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll
@@ -85,6 +87,7 @@
 /Users/mac/AthleteSystem/obj/Debug/net8.0/AthleteSystem.AssemblyInfoInputs.cache
 /Users/mac/AthleteSystem/obj/Debug/net8.0/AthleteSystem.AssemblyInfo.cs
 /Users/mac/AthleteSystem/obj/Debug/net8.0/AthleteSystem.csproj.CoreCompileInputs.cache
+/Users/mac/AthleteSystem/obj/Debug/net8.0/AthleteSystem.MvcApplicationPartsAssemblyInfo.cs
 /Users/mac/AthleteSystem/obj/Debug/net8.0/AthleteSystem.MvcApplicationPartsAssemblyInfo.cache
 /Users/mac/AthleteSystem/obj/Debug/net8.0/AthleteSystem.RazorAssemblyInfo.cache
 /Users/mac/AthleteSystem/obj/Debug/net8.0/AthleteSystem.RazorAssemblyInfo.cs
